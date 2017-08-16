@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .field  {
+    font-family: 'Shrikhand', cursive;
+ }
+
+.tasks_h1 {
+   color: black;
+   font-family: 'Shrikhand', cursive;
+   text-align: justify;
+
+ }
+
+ .create_task {
+   font-family: 'Shrikhand', cursive;
+
+ }
+
+ .text_field input[id=task_name]{
+   margin-left: 40px;
+ }
+
+ .form form {
+   padding-top: 40px;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .actions, input[type= submit] {
+  margin-left: 40px;
+  border-radius: 85px;
+ }
+
+
+body {
+  background-image: url("/assets/beautifulmorning.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+tbody {
+  color: #000000;
+  text-decoration: none;
+}
+
+tbody a {
+  color: black;
+  background: color gray;
+}
+
+table {
+  border: solid 3px gray;
+  background: rgba(255, 193, 7, 0.64);
+}
+
+tr {
+  border: solid 2px gray;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+td {
+  color: black;
+}
+
+tbody a:visited {
+  color: black;
+}
+
+tbody a:hover{
+  color: white;
+}
